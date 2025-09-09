@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #d29595;
+  font-family: sans-serif;
+}
+/* header */
+/* css-nesting */
+
+.main-header {
+  padding: 1.5rem 0;
+
+  .header-container {
+    margin: 0 auto;
+    max-width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+    .logo {
+      height: 10rem;
+      width: auto;
+      border-radius: 50%;
+    }
+  }
+}
+/* nesting-ends */
+.nav-links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-links li a:hover {
+  color: #e6e6e6;
+}
+
+/* coffee card */
+.coffee-card {
+  background-color: #fcf8f8;
+  width: auto;
+  max-width: 35rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.coffee-card figure {
+  height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.coffee-card figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.coffee-card .content-wrapper {
+  padding: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.content-wrapper h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.content-wrapper p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.coffee-card footer {
+  text-align: center;
+  padding: 1.5rem 2rem;
+}
+
+.btn {
+  background-color: #d29595;
+  color: #fff;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.btn:hover {
+  color: #d29595;
+  background-color: #fff;
+}
+
+.coffee-shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+/* hero section */
+.hero {
+  background-color: #fcf8f8;
+  max-width: 120rem;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.hero h2 {
+  color: #d29595;
+  text-align: center;
+  padding: 5rem;
+  font-size: 8rem;
+  letter-spacing: -0.5px;
+  line-height: 0.9;
+}
+
+.hero img {
+  height: auto;
+  width: auto;
+  border: 1rem;
+  object-fit: cover;
+}
