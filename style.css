@@ -208,3 +208,18 @@ body {
     margin: 0 auto;
   }
 }
+
+.check-preference {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; */
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.c {
+  margin: 1rem;
+  padding: 1rem;
+}
