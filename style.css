@@ -129,6 +129,7 @@ body {
   border: 1px solid gray;
   border-radius: 1rem;
   padding: 1rem;
+  box-shadow: 0 0.4rem 0.8rem var(--shadow-color);
 }
 
 .btn:hover {
